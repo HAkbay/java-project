@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class identifyConstructs {
 	private static Set<String> savedConstructs = new LinkedHashSet<>();
+	//specify the constructors you want to identify
 	private static String constructArray[] = {"import java.io.BufferedReader","import java.io.FileReader","package","public","private","try","catch","String","int","boolean","if","else"};
 	
 	public static String identifyTheConstructs() {

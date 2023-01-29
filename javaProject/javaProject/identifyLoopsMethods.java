@@ -6,8 +6,9 @@ import java.io.IOException;
 public class identifyLoopsMethods {
 	private static String savedParanthesis[] = new String[200];
 	private static String savedParanthesisOutput[] = new String[200];
-	
+	//specify the loops you want to identify
 	private static String loopArray[] = {"for","while"};
+	//specify the methods you want to identify
 	private static String methodListArray[] = {"public void","public int","public String","private void","private String","private int","public static void","public static int","public static String","private static void","private static String","private static int","protected static void","protected static String","protected static int","protected void","protected int","protected String"};
 	
 	public static String identifyMethods() {
