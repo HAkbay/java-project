@@ -16,16 +16,9 @@ public class identifyLoopsMethods {
 			BufferedReader bReader = new BufferedReader(fReader);
 			String line;
 			int whichLine = 0;
-			int paranthesisCount = 100;  //this is a test to check if comment remover works
+			int paranthesisCount = 100;
 			int arrIndex = 0;
 			boolean inComment = false;
-			/*This is a multiple line comment to check if comment remover works
-			 *this
-			 *is
-			 *multiple
-			 *line
-			 *comment
-			 */
 			while((line = bReader.readLine()) != null) {
 				whichLine++;
 				for(int i = 0; i<loopArray.length; i++) {
